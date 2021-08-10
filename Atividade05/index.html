@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<meta charset="utf-8">
+		<title>Formulário - Atividade</title>
+
+		<style type="text/css">
+
+		.div{
+			display: inline-block;
+
+		}
+
+		</style>
+
+	</head>
+
+	<body>
+
+
+		<form action="" method="POST">
+
+			<fieldset>
+
+				<legend>Formulário</legend>
+
+				<label for="name">Nome completo:</label>
+				<input type="text" name="name"> 
+
+				<br>
+				<br>
+
+				<label for="data">Data de Nascimento:</label>
+				<input type="date" name="data">
+
+				<br><br>
+				
+				<label for="estados" class="div">Selecione o estado que mora:</label>
+
+				<br><br>
+				<select id="estados" class="div">
+
+						<option value="">Estado</option>
+						<option value="AC">Acre</option>
+					    <option value="AL">Alagoas</option>
+					    <option value="AP">Amapá</option>
+					    <option value="AM">Amazonas</option>
+					    <option value="BA">Bahia</option>
+					    <option value="CE">Ceará</option>
+					    <option value="DF">Distrito Federal</option>
+					    <option value="ES">Espírito Santo</option>
+					    <option value="GO">Goiás</option>
+					    <option value="MA">Maranhão</option>
+					    <option value="MT">Mato Grosso</option>
+					    <option value="MS">Mato Grosso do Sul</option>
+					    <option value="MG">Minas Gerais</option>
+					    <option value="PA">Pará</option>
+					    <option value="PB">Paraíba</option>
+					    <option value="PR">Paraná</option>
+					    <option value="PE">Pernambuco</option>
+					    <option value="PI">Piauí</option>
+					    <option value="RJ">Rio de Janeiro</option>
+					    <option value="RN">Rio Grande do Norte</option>
+					    <option value="RS">Rio Grande do Sul</option>
+					    <option value="RO">Rondônia</option>
+					    <option value="RR">Roraima</option>
+					    <option value="SC">Santa Catarina</option>
+					    <option value="SP">São Paulo</option>
+					    <option value="SE">Sergipe</option>
+					    <option value="TO">Tocantins</option>
+
+				</select>
+
+				<div class="div">
+					<label>Gênero:</label><br>
+					<input type="radio" id="masculino" name="genero" value="masculino"/>
+					<label for="masculino">Masculino</label><br>
+					<input type="radio" id="feminino" name="genero" value="feminino"/>
+					<label for="feminino">Feminino</label><br>
+					<input type="radio" id="outro" name="genero" value="outro"/>
+					<label for="outro">Outro</label><br>
+				</div>
+
+				<br><br>
+
+				<label for="conta">5+4 é?</label>
+				<input type="text" name="conta"> 
+			
+				<input type="submit" name="Enviar">
+
+			</fieldset>
+
+		</form>
+
+
+	</body>
+
+</html>
